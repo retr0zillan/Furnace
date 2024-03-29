@@ -713,8 +713,8 @@ class PlayState extends MusicBeatState
 
 		health = maxHealth / 2;
 
-		iconP1 = new HealthIcon(boyfriend != null ? boyfriend.getIcon() : "face", true, boyfriend.hasAnimIcon);
-		iconP2 = new HealthIcon(dad != null ? dad.getIcon() : "face", false, dad.hasAnimIcon);
+		iconP1 = new HealthIcon(boyfriend != null ? boyfriend.getIcon() : "face", true);
+		iconP2 = new HealthIcon(dad != null ? dad.getIcon() : "face", false);
 		for(icon in [iconP1, iconP2]) {
 			icon.y = healthBar.y - (icon.height / 2);
 			add(icon);

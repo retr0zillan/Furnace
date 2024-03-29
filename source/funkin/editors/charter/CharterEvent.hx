@@ -67,7 +67,7 @@ class CharterEvent extends UISliceSprite implements ICharterSelectable {
 				if (event.params != null && event.params[0] != null && event.params[0] >= 0 && event.params[0] < state.strumLines.length) {
 					// camera movement, use health icon
 					var icon = Character.getIconFromCharName(state.strumLines.members[event.params[0]].strumLine.characters[0]);
-					var healthIcon = new HealthIcon(icon,false, Character.getHasAnimIcon(icon));
+					var healthIcon = new HealthIcon(icon);
 					healthIcon.setUnstretchedGraphicSize(32, 32, false);
 					healthIcon.scrollFactor.set(1, 1);
 					healthIcon.active = false;

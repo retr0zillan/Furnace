@@ -192,7 +192,7 @@ class CharacterButton extends UIButton {
 	public function new(x:Float, y:Float, char:String, charsList:Array<String>, parent:UIButtonList<CharacterButton>) {
 		super(x, y, "", null, 250, 54);
 
-		charIcon = new HealthIcon(Character.getIconFromCharName(char),false, Character.getHasAnimIcon(char));
+		charIcon = new HealthIcon(Character.getIconFromCharName(char));
 		charIcon.scale.set(0.3, 0.3);
 		charIcon.updateHitbox();
 		charIcon.setPosition(x + 10, bHeight/2 - charIcon.height / 2);

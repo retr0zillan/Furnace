@@ -20,9 +20,6 @@ class HealthIcon extends FunkinSprite
 	];
 
 
-	public var animOffsetX:Float=0;
-	public var animOffsetY:Float=0;
-
 	/**
 	 * Helper for HScript who can't make maps
 	 * @param steps Something like this: `[[0, 1], [20, 0]]`
@@ -42,13 +39,13 @@ class HealthIcon extends FunkinSprite
 		];
 	}
 
-	public var hasAnimIcon:Bool;
-	public function new(char:String = 'bf', isPlayer:Bool = false, hasAnimIcon:Bool = false)
+	public var hasAnimIcon:Bool = false;
+	public function new(char:String = 'bf', isPlayer:Bool = false)
 	{
 		super();
 		health = 0.5;
-		this.hasAnimIcon = hasAnimIcon;
 		var path = Paths.image('icons/$char');
+		hasAnimIcon = Character.getHasAnimIcon(char);
 		if (!Assets.exists(path)) path = Paths.image('icons/face');
 
 		if(!hasAnimIcon){

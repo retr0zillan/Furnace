@@ -319,7 +319,7 @@ class CompactCharacterButton extends UIButton {
 		super(0, 0, "", null, 200, 40);
 		autoAlpha = false;
 
-		charIcon = new HealthIcon(funkin.game.Character.getIconFromCharName(char),false, funkin.game.Character.getHasAnimIcon(char));
+		charIcon = new HealthIcon(funkin.game.Character.getIconFromCharName(char));
 		charIcon.scale.set(0.2, 0.2);
 		charIcon.updateHitbox();
 		charIcon.setPosition(10, bHeight/2 - charIcon.height / 2);
