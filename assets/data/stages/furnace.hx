@@ -10,7 +10,7 @@ function create(){
 	shade.cameras = [camHUD];
 	shade.screenCenter();
 	shade.scrollFactor.set();
-
+	enabled=true;
 }
 function moveObject(obj:FlxObject){
     FlxG.watch.addQuick('obj', 'X:'+obj.x+' Y:'+obj.y);
