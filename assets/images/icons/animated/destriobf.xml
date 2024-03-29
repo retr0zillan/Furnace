@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="destriobf.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf icon0000" x="40" y="40" width="147" height="93"/>
+	<SubTexture name="bf icon lose0000" x="268" y="40" width="147" height="105"/>
+	<SubTexture name="bf icon transition0000" x="496" y="40" width="148" height="87" frameX="0" frameY="-12" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0001" x="496" y="40" width="148" height="87" frameX="0" frameY="-12" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0002" x="496" y="40" width="148" height="87" frameX="0" frameY="-12" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0003" x="725" y="40" width="146" height="107" frameX="-2" frameY="0" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0004" x="725" y="40" width="146" height="107" frameX="-2" frameY="0" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0005" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0006" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0007" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0008" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0009" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0010" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0011" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0012" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0013" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0014" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0015" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0016" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0017" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0018" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0019" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0020" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0021" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0022" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0023" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0024" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0025" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0026" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0027" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0028" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0029" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0030" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0031" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0032" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0033" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0034" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0035" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0036" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0037" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0038" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf icon transition0039" x="40" y="228" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+</TextureAtlas>
