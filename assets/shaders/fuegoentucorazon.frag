@@ -1,6 +1,8 @@
 #pragma header
 
 uniform float iTime;
+uniform float inten = 1.5;
+uniform vec3 flameColor = vec3(0.5, 1.0, 0.5); // 4 later
 vec3 mod289(vec3 x) {
 	return x - floor(x * (1.0 / 289.0)) * 289.0;
 }
@@ -166,7 +168,7 @@ void main(void) {
 
 	float f = ypartClippedFalloff*pow(1.0-flames*flames*flames,8.0);
 	float fff = f*f*f;
-	vec3 fire = 1.5*vec3(f, fff, fff*fff);
+	vec3 fire = inten * vec3(f, fff, fff*fff);
 
 
 	float smokeNoise = 0.5+snoise(0.4*position+timing*vec3(1.0,1.0,0.2))/2.0;
@@ -193,6 +195,6 @@ void main(void) {
 		//destrio is gay as fuck
 	}
 	vec4 color = flixel_texture2D(bitmap, openfl_TextureCoordv);
-    gl_FragColor = vec4(max(fire,sparks)+smoke * color.a,0);
+    gl_FragColor = vec4(max(fire,sparks)+smoke *color.a,0);
 	//dumb
 }
