@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 102,
+	"difficulties": [
+		"EMBER"
+	],
+	"needsVoices": true,
+	"parsedColor": -7072173,
+	"displayName": "Ember",
+	"icon": "furnace",
+	"name": "ember",
+	"color": "#941653",
+	"customValues": {}
+}
