@@ -2,7 +2,7 @@
 
 uniform float iTime;
 uniform float inten = 1.5;
-uniform vec3 flameColor = vec3(0.5, 1.0, 0.5); // 4 later
+uniform bool doDiv = false;
 vec3 mod289(vec3 x) {
 	return x - floor(x * (1.0 / 289.0)) * 289.0;
 }
@@ -131,6 +131,7 @@ vec2 noiseStackUV(vec3 pos,int octaves,float falloff,float diff){
 
 void main(void) {
 	float time = iTime;
+	vec3 rightColor = vec3(0.0, 0.2, 1.0);
 
 	vec2 uv = openfl_TextureCoordv;
 	vec2 resolution = openfl_TextureSize;
@@ -166,10 +167,18 @@ void main(void) {
 
 	float flames = pow(ypartClipped,0.3*xfuel)*pow(noise,0.3*xfuel);
 
-	float f = ypartClippedFalloff*pow(1.0-flames*flames*flames,8.0);
-	float fff = f*f*f;
-	vec3 fire = inten * vec3(f, fff, fff*fff);
+    float f = ypartClippedFalloff * pow(1.0 - flames * flames * flames, 8.0);
+    float fff = f * f * f;
+    vec3 fireLeft = inten * vec3(f, fff, fff * fff);
 
+    //but im mr brightsideeeeeeee
+    float fRight = ypartClippedFalloff * pow(1.0 - flames * flames * flames, 1.3);
+    float fffRight = fRight * fRight * fRight;
+    vec3 fireRight = inten * rightColor * vec3(fRight, fffRight, fffRight * fffRight);
+
+    //gotta love glsl :p
+	vec3 fire = fireLeft;
+	
 
 	float smokeNoise = 0.5+snoise(0.4*position+timing*vec3(1.0,1.0,0.2))/2.0;
 	vec3 smoke = vec3(0.3*pow(xfuel,3.0)*pow(ypart,2.0)*(smokeNoise+0.4*(1.0-noise)));
@@ -195,6 +204,16 @@ void main(void) {
 		//destrio is gay as fuck
 	}
 	vec4 color = flixel_texture2D(bitmap, openfl_TextureCoordv);
-    gl_FragColor = vec4(max(fire,sparks)+smoke *color.a,0);
+
+    vec3 fireSparksColor = max(fire, sparks);
+
+ 
+	if(doDiv){
+    float mixFactor = smoothstep(0.4, 0.8, xpart); //mix mix mix mix mix mix
+     fire = mix(fireLeft, fireRight, mixFactor);
+	}
+
+
+    gl_FragColor = vec4(max(fire,sparks)+smoke * color.a,0);
 	//dumb
 }

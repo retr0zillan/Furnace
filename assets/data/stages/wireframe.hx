@@ -1,20 +1,14 @@
 import flixel.math.FlxRandom;
 import funkin.backend.shaders.WiggleEffect;
 import funkin.backend.shaders.WiggleEffect.WiggleEffectType;
-import funkin.options.OptionsScreen;
 
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
 
 var coolShader:CustomShader;
 var glitch:CustomShader;
-
 var heat:WiggleEffect;
-function preload(imagePath:String) {
-    var graphic = FlxG.bitmap.add(Paths.image(imagePath));
-    graphic.useCount++;
-    graphic.destroyOnNoUse = false;
-    graphicCache.cachedGraphics.push(graphic);
-    graphicCache.nonRenderedCachedGraphics.push(graphic);
-}
+
 function create(){
 
 	coolShader = new CustomShader('fuegoentucorazon');
@@ -24,16 +18,12 @@ function create(){
 
 	importScript("data/scripts/loadfurnotes");
 
+	
 	shade.cameras = [camHUD];
 	shade.screenCenter();
 	shade.scrollFactor.set();
 
-	preload('stages/wireframe/Bars');
-	preload('stages/wireframe/Furnace Center');
-	preload('stages/wireframe/Furnace Left');
-	preload('stages/wireframe/Furnace Right');
-	preload('stages/wireframe/Plataform');
-	preload('stages/wireframe/Red Background');
+
 
 
 }
@@ -41,10 +31,9 @@ function create(){
 
 public var heatShader:CustomShader;
 
-public var chroma:CustomShader;
-public var vhs:CustomShader;
-
+public var pixel:CustomShader;
 var wiggleEffect:WiggleEffect;
+
 function postCreate(){
 
 
@@ -53,13 +42,16 @@ function postCreate(){
 		var shit = new FunkinSprite(0,-700).makeGraphic(FlxG.width, FlxG.height, FlxColor.RED);
 		shit.scale.set(5,5);
 		shit.shader = coolShader;
-		coolShader.inten = 1.5;
-
+		
 		insert(members.indexOf(platform), shit);
 		left.shader = heatShader;
 		center.shader = heatShader;
 		right.shader = heatShader;
-		coolShader.doDiv = false;
+		bars.shader = heatShader;
+		platform.shader = heatShader;
+		
+		coolShader.inten = 20;
+		coolShader.doDiv = true;
 	
 	
 		
@@ -69,6 +61,13 @@ function postCreate(){
 
 }
 var updater:Float=0;
+var beater:Float = 0;
+
+function beatHit(curBeat:Int){
+	
+	
+
+}
 
 function postUpdate(elapsed) {
 	
@@ -77,10 +76,7 @@ function postUpdate(elapsed) {
 		
 
 			updater+=elapsed;
-	
 		
-		
-
 			heatShader.iTime = updater;
 			coolShader.iTime = updater;
 		}

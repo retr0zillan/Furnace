@@ -7,8 +7,8 @@
 	<sprite name="bars"               x="-100" y="100"   sprite="bars" scale = "1.2" scroll = "1.1"/>
 	<sprite name="platform"               x="-100" y="100"   sprite="platform" scale = "1.2" scroll = "0.9"/>
 
-	<girlfriend x = "1050" y = "150" scale = "1.1"/>
-	<dad x = "500" y = "253"/>
-	<boyfriend x = "1723" y = "504" camxoffset = "-500" camyoffset= "-120" scale = "1.1"/>
+	<girlfriend x = "1050" y = "160" scale = "1.1"/>
+	<dad x = "220" y = "253" camxoffset = "200" camyoffset= ""/>
+	<boyfriend x = "1823" y = "504" camxoffset = "-700" camyoffset= "-120" scale = "1.1"/>
 	<sprite name="shade"  x="-0" y="0"    sprite="shade"      scroll="0" />
 </stage>
