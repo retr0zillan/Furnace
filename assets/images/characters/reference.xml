@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="reference.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="furnace0000" x="40" y="40" width="107" height="161" frameX="-4" frameY="0" frameWidth="111" frameHeight="161"/>
+	<SubTexture name="furnace0001" x="40" y="40" width="107" height="161" frameX="-4" frameY="0" frameWidth="111" frameHeight="161"/>
+	<SubTexture name="furnace0002" x="40" y="40" width="107" height="161" frameX="-4" frameY="0" frameWidth="111" frameHeight="161"/>
+	<SubTexture name="furnace0003" x="228" y="40" width="111" height="161"/>
+	<SubTexture name="furnace0004" x="228" y="40" width="111" height="161"/>
+	<SubTexture name="furnace0005" x="228" y="40" width="111" height="161"/>
+	<SubTexture name="furnace0006" x="420" y="40" width="110" height="161" frameX="-1" frameY="0" frameWidth="111" frameHeight="161"/>
+	<SubTexture name="furnace0007" x="420" y="40" width="110" height="161" frameX="-1" frameY="0" frameWidth="111" frameHeight="161"/>
+	<SubTexture name="furnace0008" x="420" y="40" width="110" height="161" frameX="-1" frameY="0" frameWidth="111" frameHeight="161"/>
+	<SubTexture name="furnace0009" x="420" y="40" width="110" height="161" frameX="-1" frameY="0" frameWidth="111" frameHeight="161"/>
+	<SubTexture name="icon lose0000" x="611" y="40" width="98" height="145"/>
+	<SubTexture name="icon lose0001" x="611" y="40" width="98" height="145"/>
+	<SubTexture name="icon lose0002" x="611" y="40" width="98" height="145"/>
+	<SubTexture name="icon lose0003" x="790" y="40" width="97" height="145" frameX="-1" frameY="0" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0004" x="790" y="40" width="97" height="145" frameX="-1" frameY="0" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0005" x="790" y="40" width="97" height="145" frameX="-1" frameY="0" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0006" x="40" y="282" width="97" height="142" frameX="-1" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0007" x="40" y="282" width="97" height="142" frameX="-1" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0008" x="40" y="282" width="97" height="142" frameX="-1" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0009" x="218" y="282" width="97" height="144" frameX="-1" frameY="-1" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0010" x="218" y="282" width="97" height="144" frameX="-1" frameY="-1" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0011" x="218" y="282" width="97" height="144" frameX="-1" frameY="-1" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0012" x="396" y="282" width="97" height="142" frameX="-1" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0013" x="396" y="282" width="97" height="142" frameX="-1" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0014" x="396" y="282" width="97" height="142" frameX="-1" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0015" x="574" y="282" width="98" height="142" frameX="0" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0016" x="574" y="282" width="98" height="142" frameX="0" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0017" x="574" y="282" width="98" height="142" frameX="0" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0018" x="753" y="282" width="98" height="142" frameX="0" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0019" x="753" y="282" width="98" height="142" frameX="0" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon lose0020" x="753" y="282" width="98" height="142" frameX="0" frameY="-3" frameWidth="98" frameHeight="145"/>
+	<SubTexture name="icon transition0000" x="40" y="507" width="120" height="166" frameX="0" frameY="0" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0001" x="40" y="507" width="120" height="166" frameX="0" frameY="0" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0002" x="40" y="507" width="120" height="166" frameX="0" frameY="0" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0003" x="241" y="507" width="107" height="150" frameX="-11" frameY="-17" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0004" x="429" y="507" width="106" height="144" frameX="-12" frameY="-23" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0005" x="616" y="507" width="95" height="127" frameX="-23" frameY="-40" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0006" x="792" y="507" width="87" height="129" frameX="-31" frameY="-38" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0007" x="792" y="507" width="87" height="129" frameX="-31" frameY="-38" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0008" x="40" y="754" width="85" height="132" frameX="-33" frameY="-35" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0009" x="40" y="754" width="85" height="132" frameX="-33" frameY="-35" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0010" x="40" y="754" width="85" height="132" frameX="-33" frameY="-35" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0011" x="206" y="754" width="91" height="137" frameX="-27" frameY="-30" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0012" x="206" y="754" width="91" height="137" frameX="-27" frameY="-30" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0013" x="206" y="754" width="91" height="137" frameX="-27" frameY="-30" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0014" x="378" y="754" width="92" height="140" frameX="-26" frameY="-27" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0015" x="378" y="754" width="92" height="140" frameX="-26" frameY="-27" frameWidth="120" frameHeight="167"/>
+	<SubTexture name="icon transition0016" x="378" y="754" width="92" height="140" frameX="-26" frameY="-27" frameWidth="120" frameHeight="167"/>
+</TextureAtlas>

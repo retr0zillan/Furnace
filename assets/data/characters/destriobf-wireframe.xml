@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="destriobf-wireframe" scale = "1.14" camx="-600" y="350" isGF="false" camy="-300" flipX="true" isPlayer="false" hasAnimIcon="true" sprite="destriobf-wireframe">
+	<anim x="-5" loop="true" y="0" fps="24" anim="idle" name="idle"/>
+	<anim x="14" loop="false" y="31" fps="24" anim="up0" name="singUP"/>
+	<anim x="34" loop="false" y="2" fps="24" anim="left0" name="singLEFT"/>
+	<anim x="-58" loop="false" y="-9" fps="24" anim="right0" name="singRIGHT"/>
+	<anim x="-52" loop="false" y="-30" fps="24" anim="down0" name="singDOWN"/>
+	<anim x="19" loop="false" y="78" fps="24" anim="miss up" name="singUPmiss"/>
+	<anim x="13" loop="false" y="40" fps="24" anim="miss left" name="singLEFTmiss"/>
+	<anim x="-58" loop="false" y="39" fps="24" anim="miss right" name="singRIGHTmiss"/>
+	<anim x="-62" loop="false" y="-6" fps="24" anim="miss down" name="singDOWNmiss"/>
+	<anim x="6" loop="false" y="0" fps="24" anim="hey" name="hey"/>
+</character>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="destriobf-wireframe.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf wirefame lose0000" x="4" y="4" width="147" height="105"/>
+	<SubTexture name="bf wireframe0000" x="155" y="4" width="147" height="93"/>
+	<SubTexture name="bf wireframe transition0000" x="306" y="4" width="148" height="87" frameX="0" frameY="-12" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0001" x="306" y="4" width="148" height="87" frameX="0" frameY="-12" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0002" x="306" y="4" width="148" height="87" frameX="0" frameY="-12" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0003" x="4" y="113" width="146" height="107" frameX="-2" frameY="0" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0004" x="4" y="113" width="146" height="107" frameX="-2" frameY="0" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0005" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0006" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0007" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0008" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0009" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0010" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0011" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0012" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0013" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0014" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0015" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0016" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0017" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0018" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0019" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0020" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0021" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0022" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0023" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0024" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0025" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0026" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0027" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0028" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0029" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0030" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0031" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0032" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0033" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0034" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0035" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0036" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0037" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0038" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+	<SubTexture name="bf wireframe transition0039" x="154" y="113" width="147" height="105" frameX="-1" frameY="-2" frameWidth="148" frameHeight="107"/>
+</TextureAtlas>

@@ -1,21 +1,19 @@
+import funkin.game.PlayState;
+import flixel.math.FlxMath;
+import funkin.game.Character;
 import flixel.math.FlxRandom;
 import funkin.backend.shaders.WiggleEffect;
 import funkin.backend.shaders.WiggleEffect.WiggleEffectType;
 import funkin.options.OptionsScreen;
-
-
-var coolShader:CustomShader;
-var glitch:CustomShader;
-
+import openfl.display.BlendMode;
+import openfl.filters.GlowFilter;
+import openfl.geom.Rectangle;
+import openfl.geom.Point;
+var coolShader = null;
 var heat:WiggleEffect;
-function preload(imagePath:String) {
-    var graphic = FlxG.bitmap.add(Paths.image(imagePath));
-    graphic.useCount++;
-    graphic.destroyOnNoUse = false;
-    graphicCache.cachedGraphics.push(graphic);
-    graphicCache.nonRenderedCachedGraphics.push(graphic);
-}
+var glow:GlowFilter;
 function create(){
+
 
 	coolShader = new CustomShader('fuegoentucorazon');
 	heatShader = new CustomShader('furnaceHeatGaySex2024');
@@ -28,53 +26,65 @@ function create(){
 	shade.screenCenter();
 	shade.scrollFactor.set();
 
-	preload('stages/wireframe/Bars');
-	preload('stages/wireframe/Furnace Center');
-	preload('stages/wireframe/Furnace Left');
-	preload('stages/wireframe/Furnace Right');
-	preload('stages/wireframe/Plataform');
-	preload('stages/wireframe/Red Background');
-
+	
 
 }
 
 
-public var heatShader:CustomShader;
+var heatShader= null;
+var daVal:Float = 1.5;
 
-public var chroma:CustomShader;
-public var vhs:CustomShader;
 
-var wiggleEffect:WiggleEffect;
+var shit:FunkinSprite;
 function postCreate(){
-
+	trace(gf.curCharacter);
+	
 
 
 	if(Options.gameplayShaders) {
-		var shit = new FunkinSprite(0,-700).makeGraphic(FlxG.width, FlxG.height, FlxColor.RED);
+		shit = new FunkinSprite(0,-700).makeGraphic(FlxG.width, FlxG.height, FlxColor.RED);
 		shit.scale.set(5,5);
 		shit.shader = coolShader;
-		coolShader.inten = 1.5;
-
+	
+	
 		insert(members.indexOf(platform), shit);
 		left.shader = heatShader;
 		center.shader = heatShader;
 		right.shader = heatShader;
+	
+	
+		coolShader.inten = 1.5;
 		coolShader.doDiv = false;
-	
-	
-		
+
+
 	}
-	
+
 
 
 }
-var updater:Float=0;
 
-function postUpdate(elapsed) {
+var updater:Float=0;
+function destroy() {
+	trace(':c');
+	if(Options.gameplayShaders) {
+		heatShader = null;
+		coolShader = null;
+		shit.destroy();
+	}
+
+}
+function beatHit(curBeat:Int) {
+	if(curBeat%4 == 0 && PlayState.SONG.meta.name.toLowerCase() == "combustion" && curBeat > 583 && curBeat < 647){
+		trace("beat!!!1");
+		daVal += 20;
+	}
+}
+function postUpdate(elapsed:Float) {
 	
-			
 		if(Options.gameplayShaders){
 		
+			daVal = lerp(daVal, 1.5, 0.06);
+			coolShader.inten = daVal;
 
 			updater+=elapsed;
 	

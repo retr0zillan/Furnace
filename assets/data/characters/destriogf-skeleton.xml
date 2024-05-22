@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" icon="destriogf" y="275" isGF="true" scale="1.2" isPlayer="false" sprite="gf-skeleton">
+	<anim x="37" loop="true" y="5" fps="24" anim="true wireframe GF" name="idle"/>
+</character>

@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="destriobf" scale = "1.1" camx="-600" y="350" isGF="false" camy="-350" flipX="true" isPlayer="false" hasAnimIcon="true" sprite="destriobf-combustion">
+	<anim x="-5" loop="true" y="0" fps="24" anim="idle" name="idle"/>
+	<anim x="13" loop="false" y="36" fps="24" anim="up0" name="singUP"/>
+</character>

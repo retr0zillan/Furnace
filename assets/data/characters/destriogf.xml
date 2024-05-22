@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="100" icon="destriogf" y="275" isGF="true" isPlayer="false" sprite="destriogf">
+<character x="100" icon="destriogf" scale = "1.1" y="275" isGF="true" isPlayer="false" sprite="destriogf">
 	<anim x="67" loop="false" y="-13" fps="24" anim="hey" name="cheer"/>
 	<anim x="37" loop="true" y="5" fps="24" anim="Idle" name="idle"/>
 </character>

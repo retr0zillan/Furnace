@@ -212,6 +212,10 @@ void main(void) {
     float mixFactor = smoothstep(0.4, 0.8, xpart); //mix mix mix mix mix mix
      fire = mix(fireLeft, fireRight, mixFactor);
 	}
+	else{
+	fire = fireLeft;
+
+	}
 
 
     gl_FragColor = vec4(max(fire,sparks)+smoke * color.a,0);

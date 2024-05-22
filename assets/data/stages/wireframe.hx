@@ -5,9 +5,7 @@ import funkin.backend.shaders.WiggleEffect.WiggleEffectType;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 
-var coolShader:CustomShader;
-var glitch:CustomShader;
-var heat:WiggleEffect;
+var coolShader=null;
 
 function create(){
 
@@ -18,31 +16,23 @@ function create(){
 
 	importScript("data/scripts/loadfurnotes");
 
-	
-	shade.cameras = [camHUD];
-	shade.screenCenter();
-	shade.scrollFactor.set();
-
-
 
 
 }
 
 
-public var heatShader:CustomShader;
+var heatShader=null;
 
-public var pixel:CustomShader;
-var wiggleEffect:WiggleEffect;
-
+var shit:FunkinSprite;
 function postCreate(){
 
 
 
 	if(Options.gameplayShaders) {
-		var shit = new FunkinSprite(0,-700).makeGraphic(FlxG.width, FlxG.height, FlxColor.RED);
+		shit = new FunkinSprite(0,-700).makeGraphic(FlxG.width, FlxG.height, FlxColor.RED);
 		shit.scale.set(5,5);
 		shit.shader = coolShader;
-		
+
 		insert(members.indexOf(platform), shit);
 		left.shader = heatShader;
 		center.shader = heatShader;
@@ -50,7 +40,7 @@ function postCreate(){
 		bars.shader = heatShader;
 		platform.shader = heatShader;
 		
-		coolShader.inten = 20;
+		coolShader.inten = 25;
 		coolShader.doDiv = true;
 	
 	
@@ -60,13 +50,25 @@ function postCreate(){
 
 
 }
+function beatHit(curBeat:Int) {
+	if(curBeat%4 == 0 && PlayState.SONG.meta.name.toLowerCase() == "combustion" && curBeat > 583 && curBeat < 647){
+		trace("beat!!!1");
+		daVal += 20;
+	}
+}
 var updater:Float=0;
 var beater:Float = 0;
+var daVal:Float = 25;
 
-function beatHit(curBeat:Int){
-	
-	
+function destroy() {
+	if(Options.gameplayShaders)
+	{
 
+		trace(':c');
+		heatShader = null;
+		coolShader = null;
+		shit.destroy();
+	}
 }
 
 function postUpdate(elapsed) {
@@ -74,7 +76,8 @@ function postUpdate(elapsed) {
 			
 		if(Options.gameplayShaders){
 		
-
+			daVal = lerp(daVal, 25, 0.06);
+			coolShader.inten = daVal;
 			updater+=elapsed;
 		
 			heatShader.iTime = updater;

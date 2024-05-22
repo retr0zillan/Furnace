@@ -36,6 +36,7 @@ function onStrumCreation(event) {
 
 	var strum = event.strum;
 
+	
 	if (!event.cancel) {
 		strum.frames = Paths.getFrames('game/notes/furnacenotes');
 		strum.animation.addByPrefix('green', 'arrowUP');

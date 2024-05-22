@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="destriogf-naked.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle-naked0000" x="4" y="4" width="541" height="700" frameX="-11" frameY="-4" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0001" x="549" y="4" width="546" height="691" frameX="-6" frameY="-3" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0002" x="549" y="4" width="546" height="691" frameX="-6" frameY="-3" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0003" x="1099" y="4" width="548" height="686" frameX="-4" frameY="-4" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0004" x="1099" y="4" width="548" height="686" frameX="-4" frameY="-4" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0005" x="1099" y="4" width="548" height="686" frameX="-4" frameY="-4" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0006" x="1651" y="4" width="550" height="681" frameX="-2" frameY="-4" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0007" x="1651" y="4" width="550" height="681" frameX="-2" frameY="-4" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0008" x="2205" y="4" width="550" height="676" frameX="-2" frameY="-6" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0009" x="2759" y="4" width="549" height="680" frameX="-3" frameY="-6" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0010" x="3312" y="4" width="546" height="690" frameX="-6" frameY="-6" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0011" x="4" y="708" width="546" height="690" frameX="-6" frameY="-6" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0012" x="554" y="708" width="542" height="696" frameX="-10" frameY="-6" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0013" x="554" y="708" width="542" height="696" frameX="-10" frameY="-6" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0014" x="554" y="708" width="542" height="696" frameX="-10" frameY="-6" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0015" x="1100" y="708" width="541" height="698" frameX="-11" frameY="-6" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0016" x="1100" y="708" width="541" height="698" frameX="-11" frameY="-6" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0017" x="1645" y="708" width="540" height="701" frameX="-12" frameY="-5" frameWidth="552" frameHeight="707"/>
+	<SubTexture name="Idle-naked0018" x="2189" y="708" width="539" height="702" frameX="-13" frameY="-5" frameWidth="552" frameHeight="707"/>
+</TextureAtlas>

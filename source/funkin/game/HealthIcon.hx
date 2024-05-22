@@ -14,11 +14,10 @@ class HealthIcon extends FunkinSprite
 	 * Health steps in this format:
 	 * Min Percentage => Frame Index
 	 */
-	public var healthSteps:Map<Int, Int> = [
-		0  => 1, // losing icon
-		20 => 0, // normal icon
-	];
+	 public var healthSteps:Map<Int, Int> = null;
 
+	 public var isPlayer:Bool;
+	 public var curCharacter:String = null;
 
 	/**
 	 * Helper for HScript who can't make maps
@@ -39,49 +38,64 @@ class HealthIcon extends FunkinSprite
 		];
 	}
 
+	public function setIcon(char:String, width:Int = 150, height:Int = 150) {
+		if(curCharacter != char || this.width != width || this.height != height) {
+			curCharacter = char;
+			var path = Paths.image('icons/$char');
+			hasAnimIcon = Character.getHasAnimIcon(char);
+			
+			if (!Assets.exists(path)) path = Paths.image('icons/face');
+
+			healthSteps = [
+				0  => 1, // losing icon
+				20 => 0, // normal icon
+			];
+
+			if(!hasAnimIcon){
+				loadGraphic(path, true, 150, 150);
+
+				animation.add(char, [for(i in 0...frames.frames.length) i], 0, false, isPlayer);
+				antialiasing = true;
+				animation.play(char);
+		
+				if (frames.frames.length >= 3)
+					healthSteps[80] = 2; // winning icon
+			}
+			else{
+				if(Assets.exists(Paths.xml('icons/$char'))){
+					trace('we got icon shit');
+					var xmlPath = Paths.xml('icons/$char');
+					var plainXML = Assets.getText(xmlPath);
+					var shit = Xml.parse(plainXML).firstElement();
+	
+					//pain in the ass
+					var meta = new Access(shit);
+	
+					if(meta.x.exists("sprite")) frames = Paths.getFrames('icons/animated/${meta.x.get("sprite")}');
+					if(meta.x.exists("flipX")) flipX = (meta.x.get("flipX") == "true");
+	
+					for(anim in meta.nodes.anim){
+	
+						XMLUtil.addXMLAnimation(this, anim);
+						
+					}
+					antialiasing = true;
+	
+					playAnim('normal');
+				}
+			}
+
+		
+		}
+	}
+
 	public var hasAnimIcon:Bool = false;
 	public function new(char:String = 'bf', isPlayer:Bool = false)
 	{
 		super();
 		health = 0.5;
-		var path = Paths.image('icons/$char');
-		hasAnimIcon = Character.getHasAnimIcon(char);
-		if (!Assets.exists(path)) path = Paths.image('icons/face');
-
-		if(!hasAnimIcon){
-			loadGraphic(path, true, 150, 150);
-
-			animation.add(char, [for(i in 0...frames.frames.length) i], 0, false, isPlayer);
-			antialiasing = true;
-			animation.play(char);
-	
-			if (frames.frames.length >= 3)
-				healthSteps[80] = 2; // winning icon
-		}
-		else{
-			if(Assets.exists(Paths.xml('icons/$char'))){
-				trace('we got icon shit');
-				var xmlPath = Paths.xml('icons/$char');
-				var plainXML = Assets.getText(xmlPath);
-				var shit = Xml.parse(plainXML).firstElement();
-
-				//pain in the ass
-				var meta = new Access(shit);
-
-				if(meta.x.exists("sprite")) frames = Paths.getFrames('icons/animated/${meta.x.get("sprite")}');
-				if(meta.x.exists("flipX")) flipX = (meta.x.get("flipX") == "true");
-
-				for(anim in meta.nodes.anim){
-
-					XMLUtil.addXMLAnimation(this, anim);
-					
-				}
-				antialiasing = true;
-
-				playAnim('normal');
-			}
-		}
-	
+		this.isPlayer = isPlayer;
+		setIcon(char);
 
 		scrollFactor.set();
 	}

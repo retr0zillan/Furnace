@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf-skeleton.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF Skeleton0000" x="4" y="4" width="547" height="467" frameX="0" frameY="0" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0001" x="555" y="4" width="566" height="467" frameX="0" frameY="0" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0002" x="1125" y="4" width="551" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0003" x="1680" y="4" width="554" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0004" x="1680" y="4" width="554" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0005" x="2238" y="4" width="550" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0006" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0007" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0008" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0009" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0010" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0011" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0012" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0013" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0014" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0015" x="2792" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0016" x="3267" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0017" x="3267" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0018" x="3267" y="4" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0019" x="4" y="475" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0020" x="4" y="475" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0021" x="479" y="475" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0022" x="954" y="475" width="471" height="457" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0023" x="1429" y="475" width="471" height="459" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0024" x="1904" y="475" width="471" height="520" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0025" x="2379" y="475" width="471" height="521" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0026" x="2379" y="475" width="471" height="521" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0027" x="2854" y="475" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0028" x="2854" y="475" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0029" x="3329" y="475" width="471" height="520" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0030" x="3329" y="475" width="471" height="520" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0031" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0032" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0033" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0034" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0035" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0036" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0037" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0038" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0039" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0040" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0041" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0042" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0043" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0044" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0045" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0046" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0047" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0048" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0049" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0050" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0051" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0052" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0053" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0054" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0055" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0056" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+	<SubTexture name="BF Skeleton0057" x="4" y="1000" width="471" height="519" frameX="-15" frameY="-12" frameWidth="569" frameHeight="533"/>
+</TextureAtlas>

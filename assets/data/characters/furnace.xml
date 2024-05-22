@@ -1,10 +1,9 @@
 <!DOCTYPE codename-engine-character>
-<character isPlayer="false" flipX="false" holdTime="6.1" hasAnimIcon = "true">
-	<anim name="idle"      anim="idle"      fps="24" loop="false" x="0" y="0"/>
-	<anim name="singUP"    anim="up"    fps="24" loop="false" x="107" y="98"/>
-	<anim name="singLEFT"  anim="left"  fps="24" loop="false" x="271" y="4"/>
-	<anim name="singRIGHT" anim="right" fps="24" loop="false" x="-130" y="18"/>
-	<anim name="singDOWN"  anim="down"  fps="24" loop="false" x="-70" y="-140"/>
-	<anim name="pfff"  anim="pfff"  fps="24" loop="false" x="42" y="0"/>
-
+<character x="0" icon="furnace" camy="0" camx = "300"y="0" isGF="false" isPlayer="false" hasAnimIcon="true" holdTime="3.4" sprite="furnace">
+	<anim x="0" loop="true" y="0" fps="24" anim="idle" name="idle"/>
+	<anim x="109" loop="false" y="106" fps="24" anim="up" name="singUP"/>
+	<anim x="250" loop="false" y="-4" fps="24" anim="left" name="singLEFT"/>
+	<anim x="-40" loop="false" y="9" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="-60" loop="false" y="-135" fps="24" anim="down" name="singDOWN"/>
+	<anim x="43" loop="false" y="0" fps="24" anim="pfff" name="pfff"/>
 </character>

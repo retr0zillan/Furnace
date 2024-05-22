@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" icon="furnace" camx="300" scale = "1.2" y="-105" isGF="false" isPlayer="false" hasAnimIcon="true" holdTime="3.4" sprite="furnace-mic-nom">
+	<anim x="0" loop="false" y="0" fps="24" anim="mic nom" name="eat"/>
+</character>

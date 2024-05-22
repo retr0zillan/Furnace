@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-icon>
+<icon sprite = "furnace-wireframe">
+	<anim name = "normal" anim = "wireframe icon0" fps = "24" loop = "true" x = "10" y= "30"/>
+	<anim name = "losing" anim = "wireframe lose" fps = "24" loop = "true" x = "10" y= "30"/>
+	<anim name = "transition" anim = "wireframe transition" fps = "24" loop = "false" x = "10" y= "36"/>
+</icon>

@@ -1,13 +1,13 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="destriobf" camx="120" y="350" isGF="false" camy="-50" flipX="true" isPlayer="false" hasAnimIcon = "true" sprite="destriobf">
-	<anim x="-5" loop="true" y="0" fps="24" anim="idle" name="idle"/>
-	<anim x="12" loop="false" y="32" fps="24" anim="up0" name="singUP"/>
-	<anim x="34" loop="false" y="2" fps="24" anim="left0" name="singLEFT"/>
-	<anim x="-59" loop="false" y="-8" fps="24" anim="right0" name="singRIGHT"/>
-	<anim x="-52" loop="false" y="-30" fps="24" anim="down0" name="singDOWN"/>
-	<anim x="23" loop="false" y="93" fps="24" anim="miss up" name="singUPmiss"/>
-	<anim x="32" loop="false" y="60" fps="24" anim="miss left" name="singLEFTmiss"/>
-	<anim x="-38" loop="false" y="60" fps="24" anim="miss right" name="singRIGHTmiss"/>
-	<anim x="-38" loop="false" y="12" fps="24" anim="miss down" name="singDOWNmiss"/>
-	<anim x="6" loop="false" y="0" fps="24" anim="hey" name="hey"/>
+<character x="0" icon="destriobf" camx="-600" y="350" isGF="false" camy="-350" flipX="true" isPlayer="false" hasAnimIcon="true" sprite="destriobf">
+	<anim x="-5" loop="true" y="0" fps="24" anim="BF idle dance" name="idle"/>
+	<anim x="13" loop="false" y="36" fps="24" anim="up0" name="singUP"/>
+	<anim x="47" loop="false" y="-4" fps="24" anim="right0" name="singLEFT"/>
+	<anim x="-59" loop="false" y="-3" fps="24" anim="left0" name="singRIGHT"/>
+	<anim x="-52" loop="false" y="-35" fps="24" anim="down0" name="singDOWN"/>
+	<anim x="20" loop="false" y="83" fps="24" anim="miss up" name="singUPmiss"/>
+	<anim x="32" loop="false" y="60" fps="24" anim="miss right" name="singLEFTmiss"/>
+	<anim x="-45" loop="false" y="60" fps="24" anim="miss left" name="singRIGHTmiss"/>
+	<anim x="-51" loop="false" y="12" fps="24" anim="miss down" name="singDOWNmiss"/>
+	<anim x="10" loop="false" y="3" fps="24" anim="BF HEY!!" name="hey"/>
 </character>

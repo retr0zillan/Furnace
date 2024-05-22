@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="destriobf" scale = "1.14" camx="-600" y="350" isGF="false" camy="-350" flipX="true" isPlayer="false" hasAnimIcon="true" sprite="destriobf-burned">
+	<anim x="-5" loop="true" y="0" fps="24" anim="idle" name="idle"/>
+	<anim x="14" loop="false" y="33" fps="24" anim="up0" name="singUP"/>
+	<anim x="-54" loop="false" y="-6" fps="24" anim="right0" name="singLEFT"/>
+	<anim x="34" loop="false" y="2" fps="24" anim="left0" name="singRIGHT"/>
+	<anim x="-53" loop="false" y="-28" fps="24" anim="down0" name="singDOWN"/>
+	<anim x="24" loop="false" y="97" fps="24" anim="miss up" name="singUPmiss"/>
+	<anim x="-38" loop="false" y="60" fps="24" anim="miss right" name="singLEFTmiss"/>
+	<anim x="34" loop="false" y="60" fps="24" anim="miss left" name="singRIGHTmiss"/>
+	<anim x="-51" loop="false" y="13" fps="24" anim="miss down" name="singDOWNmiss"/>
+</character>

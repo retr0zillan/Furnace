@@ -137,8 +137,8 @@ class PlayState extends MusicBeatState
 	 */
 	public var downscroll(get, set):Bool;
 
-	@:dox(hide) private function set_downscroll(v:Bool) {return camNotes.downscroll = v;}
-	@:dox(hide) private function get_downscroll():Bool  {return camNotes.downscroll;}
+	@:dox(hide) private function set_downscroll(v:Bool) {return camHUD.downscroll = v;}
+	@:dox(hide) private function get_downscroll():Bool  {return camHUD.downscroll;}
 
 	/**
 	 * Instrumental sound (Inst.ogg).
@@ -293,12 +293,8 @@ class PlayState extends MusicBeatState
 	/**
 	 * Camera for the HUD (health, misses).
 	 */
-	public var camHUD:FlxCamera;
+	public var camHUD:HudCamera;
 	
-	public var camNotes:HudCamera;
-	/*
-	  Separated camera for notes
-	*/
 	/**
 	 * Camera for the game (stages, characters)
 	 */
@@ -533,10 +529,8 @@ class PlayState extends MusicBeatState
 
 		camGame = camera;
 		
-		FlxG.cameras.add(camNotes = new HudCamera(), false);
-		FlxG.cameras.add(camHUD = new FlxCamera(), false);
+		FlxG.cameras.add(camHUD = new HudCamera(), false);
 		camHUD.bgColor.alpha = 0;
-		camNotes.bgColor.alpha = 0;
 
 		downscroll = Options.downscroll;
 
@@ -661,7 +655,7 @@ class PlayState extends MusicBeatState
 				strumLine.type != 1, coopMode ? (strumLine.type == 1 ? controlsP1 : controlsP2) : controls,
 				strumLine.vocalsSuffix
 			);
-			strLine.cameras = [camNotes];
+			strLine.cameras = [camHUD];
 			strLine.data = strumLine;
 			strLine.visible = (strumLine.visible != false);
 			strLine.vocals.group = FlxG.sound.defaultMusicGroup;
@@ -711,8 +705,7 @@ class PlayState extends MusicBeatState
 		healthBarBG.scrollFactor.set();
 		add(healthBarBG);
 
-		if(downscroll)
-			healthBarBG.y = FlxG.height*.1;
+	
 
 		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
 			'health', 0, maxHealth);
@@ -1298,7 +1291,6 @@ class PlayState extends MusicBeatState
 		{
 			FlxG.camera.zoom = lerp(FlxG.camera.zoom, defaultCamZoom, 0.05);
 			camHUD.zoom = lerp(camHUD.zoom, defaultHudZoom, 0.05);
-			camNotes.zoom = lerp(camHUD.zoom, defaultHudZoom, 0.05);
 
 		}
 
@@ -1795,7 +1787,6 @@ class PlayState extends MusicBeatState
 		{
 			FlxG.camera.zoom += 0.015 * camZoomingStrength;
 			camHUD.zoom += 0.03 * camZoomingStrength;
-			camNotes.zoom += 0.03 * camZoomingStrength;
 
 
 		}

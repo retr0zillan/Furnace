@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="furnace-nomic" camx="300" y="0" isGF="false" isPlayer="false" hasAnimIcon="true" holdTime="3.4" sprite="furnace-no-mic">
+	<anim x="0" loop="true" y="0" fps="24" anim="idle" name="idle"/>
+	<anim x="62" loop="false" y="63" fps="24" anim="up" name="singUP"/>
+	<anim x="273" loop="false" y="-21" fps="24" anim="left" name="singLEFT"/>
+	<anim x="-90" loop="false" y="-22" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="-70" loop="false" y="-140" fps="24" anim="down" name="singDOWN"/>
+</character>

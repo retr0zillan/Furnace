@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="furnace-wireframe.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="wireframe icon0000" x="4" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe icon0001" x="4" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe icon0002" x="144" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe icon0003" x="144" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe icon0004" x="284" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe icon0005" x="284" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe icon0006" x="424" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe icon0007" x="424" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe icon0008" x="564" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe icon0009" x="564" y="4" width="136" height="182"/>
+	<SubTexture name="wireframe lose0000" x="704" y="4" width="150" height="195"/>
+	<SubTexture name="wireframe lose0001" x="704" y="4" width="150" height="195"/>
+	<SubTexture name="wireframe lose0002" x="858" y="4" width="150" height="195"/>
+	<SubTexture name="wireframe lose0003" x="858" y="4" width="150" height="195"/>
+	<SubTexture name="wireframe lose0004" x="4" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0005" x="4" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0006" x="158" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0007" x="158" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0008" x="312" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0009" x="312" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0010" x="466" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0011" x="466" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0012" x="620" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0013" x="620" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0014" x="774" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0015" x="774" y="203" width="150" height="195"/>
+	<SubTexture name="wireframe lose0016" x="4" y="402" width="150" height="195"/>
+	<SubTexture name="wireframe lose0017" x="4" y="402" width="150" height="195"/>
+	<SubTexture name="wireframe lose0018" x="158" y="402" width="150" height="195"/>
+	<SubTexture name="wireframe lose0019" x="158" y="402" width="150" height="195"/>
+	<SubTexture name="wireframe lose0020" x="312" y="402" width="150" height="195"/>
+	<SubTexture name="wireframe transition0000" x="466" y="402" width="136" height="182"/>
+	<SubTexture name="wireframe transition0001" x="466" y="402" width="136" height="182"/>
+	<SubTexture name="wireframe transition0002" x="466" y="402" width="136" height="182"/>
+	<SubTexture name="wireframe transition0003" x="606" y="402" width="136" height="182"/>
+	<SubTexture name="wireframe transition0004" x="746" y="402" width="136" height="182"/>
+	<SubTexture name="wireframe transition0005" x="4" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0006" x="144" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0007" x="144" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0008" x="284" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0009" x="284" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0010" x="284" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0011" x="424" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0012" x="424" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0013" x="424" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0014" x="564" y="601" width="136" height="182"/>
+	<SubTexture name="wireframe transition0015" x="564" y="601" width="136" height="182"/>
+</TextureAtlas>
